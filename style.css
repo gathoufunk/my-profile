@@ -1,0 +1,116 @@
+h1 {
+	color: rgb(26, 60, 46);
+	font-size: 45px;
+	background-color: none;
+	text-align: center;
+}
+
+body {
+	color: black;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Montserrat', serif;
+}
+
+p,a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	text-decoration: 'none';
+}
+
+
+img {
+	width: 200px;
+	height: 280px;
+	border-radius: 90%;
+}
+
+li {
+	list-style-type: none;
+	font-size: 24px;
+	display: inline;
+	margin: 12px;
+}
+
+div	{
+	background-color:rgb(245, 239, 230);
+	border-radius: 12px;
+	box-shadow: 10px 20px 30px rgba(30, 30, 30, 0.3);
+	margin: 24px;
+	padding: 50px;
+	text-align: center;
+}
+
+
+/*Custom Design*/
+
+/*classes*/
+
+.btn-green {
+	background-color: rgb(26, 77, 46);
+	color: white;
+	padding: 16px;
+	margin: 16px;
+	border-radius: 90%;
+}
+
+.btn-orange {
+	background-color: rgb(227, 139, 41);
+	transition: 0.5s;
+}
+
+.card-white {
+	background-color: rgb(200, 150, 40);
+	padding: 50px;
+	margin: 24px;
+	box-shadow: 10px 20px 30px rgba(30, 30, 30, 0.3);
+	border-radius: 12px;
+	text-align: center;
+}
+
+#card-name {
+	font-size: 54px;
+}
+
+#card-photo {
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 75%), url(Images/analogue.jpg);
+	color: white;
+	background-size: cover;
+	background-position: center;
+}
+
+#card-cuiretpatine {
+	color: white;
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 75%), url(Images/sac.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#card-contact {
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 75%), url(Images/contact.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+/*media queries*/
+
+@media (max-width:  720px) {
+	.container {
+		width: 450px;
+		font-size: 12px;
+	}
+}
+
+@media (max-width:  500px) {
+	.container {
+		width: 250px;
+		font-size: 12px;
+	}
+}
+
+
+
